@@ -39,8 +39,10 @@ for x in range(2, len(rows)):
         if  not len(td_values[13].strip().strip("</td>"))==0:  #ok
 
             count +=1
+            # public key
             print(td_values[2].strip().strip("</td>"))
-            print(td_values[1].strip().strip("</td>"),)
+            # ip address
+            # print(td_values[1].strip().strip("</td>"),)
 
 print("count:",count)
 
