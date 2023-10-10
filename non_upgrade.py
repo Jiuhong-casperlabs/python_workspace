@@ -49,3 +49,20 @@ print("count:",count)
 
 print("row-1",rows[1])
 
+        # <th>Host IP</th>
+        # <th>Public Key</th>
+        # <th>Peer Count</th>
+        # <th>Round Length</th>
+        # <th>Era ID</th>
+        # <th>Block Height</th>
+        # <th>Block TimeStamp</th>
+        # <th>Block Hash</th>
+        # <th>Build Version</th>
+        # <th>API Version</th>
+        # <th>SSRHash</th>
+        # <th>Upgrade</th>
+        # <th>Wgt %</th>
+        # <th>Weight</th>
+        # <th>Low Block</th>
+        # <th>High Block</th>
+        # <th>Reactor State</th>
