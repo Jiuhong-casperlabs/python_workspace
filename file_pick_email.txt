@@ -1,0 +1,219 @@
+1
+Select which customers to target
+Choose customers from the search results. You will be creating a proactive ticket for each of these customers.
+Note that suspended customers are excluded in the search results.
+Search for all user fields...
+Organisation
+Details
+Custom field
+-
+ 
+Tags
+mainnet
+mainnet
+Notes
+Verified
+-
+Total results: 52
+
+ID	Name	Email	Phone	Tags	Organisation	Created	Updated
+
+16777142979867	Sylvain Augelon	sylvain.augelon@feel-mining.com		
+mainnet_notifications
+30 Jun 2023, 08:00 am	30 Jun 2023, 08:00 am
+
+15219547935259	Apoorv Raj Saxena	apoorv.raj@wolfedgelabs.com		
+mainnet_notifications
+08 May 2023, 08:00 pm	08 May 2023, 08:00 pm
+
+15145532672155	middle	lugerman@163.com		
+mainnet_notifications
+04 May 2023, 08:00 pm	25 Aug 2023, 11:05 pm
+
+15035500910363	Direct CSPR Staking	dcs-validator@directcsprstaking.xyz		
+mainnet_notifications
+01 May 2023, 08:00 pm	01 May 2023, 08:00 pm
+
+14916736798747	Cybergary	realcybergary@gmail.com		
+mainnet_notifications
+27 Apr 2023, 08:00 am	27 Apr 2023, 08:00 am
+
+14860597006491	Huy Tran	tqhuy2018@gmail.com		
+rust_cratemainnet_notificationscep-78_nft_contracttestnet_notifications
+25 Apr 2023, 08:00 pm	25 Apr 2023, 08:00 pm
+
+14721267307291	zhineng chen	81279589@qq.com		
+mainnet_notifications
+20 Apr 2023, 08:00 am	14 Jul 2023, 08:00 am
+
+14660556971291	Adrian Panek	alert@casperarmy.io		
+mainnet_notificationstestnet_notifications
+19 Apr 2023, 08:00 am	19 Apr 2023, 08:00 am
+
+14660556971163	yilimi	tkxxd@qq.com		
+java_sdk_notificationsgolang_sdk_notificationsmainnet_notificationsjs_sdk_notificationssigner_extension_notifications
+19 Apr 2023, 08:00 am	19 Apr 2023, 08:00 am
+
+14660556971035	Plutert	ebru1277@outlook.com		
+mainnet_notificationstestnet_notifications
+19 Apr 2023, 08:00 am	19 Apr 2023, 08:00 am
+
+14660556970907	martin	mj@binnoex.com		
+mainnet_notifications
+19 Apr 2023, 08:00 am	19 Apr 2023, 08:00 am
+
+14356229690395	Michal Pospieszalski	mehow@matterfi.com		
+testnet_notificationsmainnet_notificationsc_sdk_notificationsrust_crate
+Matterfi	08 Apr 2023, 08:00 am	21 Apr 2023, 08:00 pm
+
+14125514364827	Antonio Costi	antonio@terrastake.net		
+testnet_notificationsmainnet_notificationssigner_extension_notifications
+31 Mar 2023, 08:00 am	09 May 2023, 02:39 pm
+
+13878087513883	Kien Nguyen	djhahe@gmail.com		
+cep-78_nft_contractmainnet_notificationsjs_sdk_notifications
+22 Mar 2023, 08:00 pm	22 Mar 2023, 08:00 pm
+
+13574463528091	Aksel Broks	abroks@grandstream.io		
+mainnet_notificationssigner_extension_notifications
+13 Mar 2023, 08:00 pm	13 Mar 2023, 08:00 pm
+
+13427040879643	ColeLaw	happylklk2022@gmail.com		
+mainnet_notificationsjs_sdk_notifications
+06 Mar 2023, 08:00 pm	06 Mar 2023, 08:00 pm
+
+13300458895259	Darren Cassar	daza85@protonmail.com		
+mainnet_notifications
+01 Mar 2023, 08:00 pm	01 Mar 2023, 08:00 pm
+
+13252312895899	Safe and Steady Staking Support	support@safeandsteady.one		
+mainnet_notifications
+Safe and Steady Staking	28 Feb 2023, 02:10 am	28 Feb 2023, 02:41 am
+
+13198753168155	Jim	jim@mcdee.net		
+mainnet_notifications
+25 Feb 2023, 09:02 am	21 Jun 2023, 08:00 pm
+
+13165720825499	Julien CAFFET	julien@allianceblock.io		
+mainnet_notificationstestnet_notifications
+24 Feb 2023, 08:00 am	24 Feb 2023, 08:00 am
+
+13165720825371	Cristian Simionca	casper@goodteam.eu		
+mainnet_notificationsgolang_sdk_notificationsjs_sdk_notificationssigner_extension_notifications
+24 Feb 2023, 08:00 am	24 Feb 2023, 08:00 am
+
+13165720825243	Toan Le	ktoanlba@gmail.com		
+mainnet_notifications
+24 Feb 2023, 08:00 am	24 Feb 2023, 08:00 am
+
+13102600911643	Daniel Kazenoff	dan.kazenoff@validationcloud.io		
+mainnet_notificationsjs_sdk_notifications
+Validation Cloud	23 Feb 2023, 08:00 am	28 Feb 2023, 08:00 am
+
+13102370444187	Antoine Vergne	antoine.vergne@gmail.com		
+mainnet_notificationstestnet_notificationssigner_extension_notifications
+22 Feb 2023, 08:00 pm	22 Feb 2023, 08:00 pm
+
+13102370444059	Julian Morales	hello@vixello.com		
+testnet_notificationspython_sdk_notificationsmainnet_notificationssigner_extension_notifications
+22 Feb 2023, 08:00 pm	22 Feb 2023, 08:00 pm
+
+13094205594907	Ritvick Paliwal	ritvick.paliwal@gmail.com		
+signer_extension_notificationsmainnet_notificationstestnet_notifications
+22 Feb 2023, 08:00 am	18 May 2023, 11:06 am
+
+13094205594779	Ivo Nuijten	mail@casperlads.io		
+mainnet_notifications
+Casperlads	22 Feb 2023, 08:00 am	01 Jun 2023, 10:06 pm
+
+13094205594651	Stakernode	operations@primecore.io		
+mainnet_notifications
+22 Feb 2023, 08:00 am	22 Feb 2023, 08:00 am
+
+13052959320219	Emilia Zubel	emilia.zubel101@gmail.com		
+testnet_notificationsmainnet_notifications
+21 Feb 2023, 08:00 am	02 Oct 2023, 10:55 am
+
+13052959320091	Nicolas Wainach Jensen	nw@bitnordic.com		
+testnet_notificationsmainnet_notificationsphp_sdk_notificationsjs_sdk_notificationssigner_extension_notifications
+21 Feb 2023, 08:00 am	21 Feb 2023, 04:27 pm
+
+13052959319963	Sebastien Chapuis	sebastien@chapu.is		
+mainnet_notifications
+21 Feb 2023, 08:00 am	28 Aug 2023, 10:53 am
+
+13046878083099	Evan Son	sunyuming@hashquark.io		
+mainnet_notifications
+20 Feb 2023, 08:00 pm	21 Feb 2023, 10:12 am
+
+13046878082971	Army IDs	validator@armyids.com		
+mainnet_notifications
+20 Feb 2023, 08:00 pm	20 Feb 2023, 08:00 pm
+
+13046878082843	Nikolay Shulzhenko	n.shulzhenko@everstake.one		
+testnet_notificationsmainnet_notifications
+20 Feb 2023, 08:00 pm	22 Feb 2023, 05:03 am
+
+13046878082715	LIU ZHI	wjdfxa@gmail.com		
+mainnet_notificationstestnet_notifications
+20 Feb 2023, 08:00 pm	20 Feb 2023, 08:00 pm
+
+13046878082587	Frankie	frankie@consensus-lab.com		
+mainnet_notifications
+20 Feb 2023, 08:00 pm	20 Feb 2023, 08:00 pm
+
+13046878082459	Korin	korin.ander@gmail.com		
+mainnet_notificationstestnet_notifications
+20 Feb 2023, 08:00 pm	20 Feb 2023, 08:00 pm
+
+13046878082331	md	md@stake.fish		
+mainnet_notifications
+20 Feb 2023, 08:00 pm	20 Feb 2023, 08:00 pm
+
+13046878082203	winlin	pcguangtao@gmail.com		
+mainnet_notifications
+20 Feb 2023, 08:00 pm	25 Aug 2023, 10:13 am
+
+13046878082075	Daniel Halford	a3mc@proton.me		
+testnet_notificationsmainnet_notificationsgolang_sdk_notificationsjs_sdk_notifications
+20 Feb 2023, 08:00 pm	20 Feb 2023, 08:00 pm
+
+13046878081947	Luigi Matteoni	luigimatteoni@gmail.com		
+testnet_notificationsjava_sdk_notificationsgolang_sdk_notificationsmainnet_notificationsphp_sdk_notificationsjs_sdk_notificationspython_sdk_notifications
+20 Feb 2023, 08:00 pm	20 Feb 2023, 08:03 pm
+
+13046878081819	Tubbly	adrian@tubbly.io		
+mainnet_notifications
+20 Feb 2023, 08:00 pm	20 Feb 2023, 08:00 pm
+
+13046878081691	Chomtana Chanjaraswichai	chomtana001@gmail.com		
+testnet_notificationsmainnet_notifications
+20 Feb 2023, 08:00 pm	20 Feb 2023, 08:00 pm
+
+13046878081563	Huy Tùng	brad@originstake.com		
+js_sdk_notificationsmainnet_notificationstestnet_notifications
+20 Feb 2023, 08:00 pm	20 Feb 2023, 08:00 pm
+
+13046878081435	Jonas	jonas.bosch@gmx.de		
+mainnet_notifications
+20 Feb 2023, 08:00 pm	20 Feb 2023, 08:00 pm
+
+13046878081307	Jonas	jonas@stakecito.de		
+mainnet_notifications
+20 Feb 2023, 08:00 pm	20 Feb 2023, 08:00 pm
+
+13046878081179	CapPR	pranav499@gmail.com		
+signer_extension_notificationsmainnet_notifications
+20 Feb 2023, 08:00 pm	20 Feb 2023, 08:00 pm
+
+13046878081051	Big B	info@smartstake.io		
+python_sdk_notificationsmainnet_notifications
+Smartstake	20 Feb 2023, 08:00 pm	22 Apr 2023, 08:00 pm
+
+13046878080923	Luke Vandegrift	lvandegrift083@gmail.com		
+js_sdk_notificationsc_sdk_notificationssigner_extension_notificationsgolang_sdk_notificationsjava_sdk_notificationsmainnet_notificationspython_sdk_notificationstestnet_notificationsphp_sdk_notifications
+20 Feb 2023, 08:00 pm	21 Feb 2023, 00:01 am
+
+12222708910875	Pretend User	kingkavma@gmail.com		
+python_sdk_notificationsmainnet_notificationsjs_sdk_notificationstestnet_notificationssigner_extension_notifications
+Metacask	21 Jan 2023, 05:08 am	27 Mar 2023, 01:34 pm
