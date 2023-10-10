@@ -10,7 +10,7 @@ content = pd.read_html(url)
 df = content[0]
 output = df.values.tolist()
 
-# sorted based on public key
+# sorted based on public key whose index is 1
 sorted_list = sorted(output, key=itemgetter(1), reverse=False)
 
 count=0
