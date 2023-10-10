@@ -1,4 +1,5 @@
 import pandas as pd
+from operator import itemgetter
 url = "http://cnm.casperlabs.io/network/casper/detail"
 
 # print all rows rather than only head and tail
@@ -9,8 +10,11 @@ content = pd.read_html(url)
 df = content[0]
 output = df.values.tolist()
 
+# sorted based on public key
+sorted_list = sorted(output, key=itemgetter(1), reverse=False)
+
 count=0
-for row in output:
+for row in sorted_list:
     # print("0",row[0])
     # print("1",row[1])
     # print("2",row[2])
@@ -30,7 +34,7 @@ for row in output:
     # print("16",row[16])
     # row[11] is upgrade era.  row[12] is weight%
     if (pd.isna(row[11])) and (not pd.isna(row[12])):
-        # public key
+        # row[1] is public key
         print(row[1])
         count+=1
 
