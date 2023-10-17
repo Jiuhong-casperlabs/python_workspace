@@ -134,7 +134,7 @@ def _main(args: argparse.Namespace):
                         # old_staked_amount gets from block in which deploy is in
                                delta_staked_amount = int(new_staked_amount) - old_staked_amount
                         # get amount_from_deploy from deploy
-                               if delta_staked_amount > arg_amount:
+                               if delta_staked_amount > int(arg_amount):
                                   count += 1
                             # that should be okay.
                                   print("good:", deploy_hash)
