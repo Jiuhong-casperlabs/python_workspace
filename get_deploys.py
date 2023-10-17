@@ -63,6 +63,7 @@ def _main(args: argparse.Namespace):
     # Query 3.2: get_block - by hash & by height.
     for height in range(2014081, 2140604):
         print(client.get_block(height))
+        print()
 
 
 #    "low": 1898405,
