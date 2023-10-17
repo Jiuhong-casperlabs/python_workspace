@@ -142,7 +142,7 @@ def _main(args: argparse.Namespace):
                                if delta_staked_amount > int(arg_amount):
                                   count += 1
                                   # that should be okay.
-                                  print("good:", deploy_hash)
+                                  print("TO SEE:", deploy_hash)
                                   print("delta_staked_amount",delta_staked_amount)
                                   print("arg_amount",arg_amount)
                                 #   if old era the staked amount is 0 then equal is okay.
