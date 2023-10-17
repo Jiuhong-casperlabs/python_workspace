@@ -91,10 +91,6 @@ def _main(args: argparse.Namespace):
         before_height = block_result["header"]["height"]
 
         temp_after_height = before_height + 200 * 7
-        print(temp_after_height)
-        print(type(temp_after_height))
-        print(temp_after_height > 2141045)
-        return
 
         if temp_after_height > 2141045:
             continue
@@ -102,7 +98,9 @@ def _main(args: argparse.Namespace):
         temp_after_era_id = temp_block_result["header"]["era_id"]
 
         while (temp_after_era_id - before_era_id !=8):
-            temp_after_height = temp_after_height + 200 * 8
+            temp_after_height = temp_after_height + 200 
+            if temp_after_height > 2141045:
+               continue
             temp_block_result = client.get_block(temp_after_height)
             temp_after_era_id = temp_block_result["header"]["era_id"]
 
