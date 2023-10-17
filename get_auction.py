@@ -108,13 +108,13 @@ def _main(args: argparse.Namespace):
         after_height = temp_after_height
 
             
-        before_delegators = get_auction_info(client,before_height,arg_new_validator)
+        before_delegators = my_get_auction_info(client,before_height,arg_new_validator)
         old_staked_amount = 0
         for delegator in before_delegators:
                     if delegator["delegatee"] == arg_new_validator and delegator["public_key"] == arg_delegator:
                         old_staked_amount =  delegator["staked_amount"]
 
-        after_delegators = get_auction_info(client,after_height,arg_new_validator)
+        after_delegators = my_get_auction_info(client,after_height,arg_new_validator)
         for delegator in after_delegators:
                     if delegator["delegatee"] == arg_new_validator and delegator["public_key"] == arg_delegator:
                         new_staked_amount =  delegator["staked_amount"]
@@ -129,7 +129,7 @@ def _main(args: argparse.Namespace):
                             print("bad:",deployhash)
 
     # ============== get auction info
-    def get_auction_info(client, block_height,new_validator):
+    def my_get_auction_info(client, block_height,new_validator):
         auction_result = client.get_auction_info(block_height)
         bids = auction_result["auction_state"]["bids"]
 
