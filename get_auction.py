@@ -58,7 +58,7 @@ def _main(args: argparse.Namespace):
     # for height in range(2014081, 2140604):
 
 # ============= get deploy info
-    f = open("result1.json", "r")
+    f = open("input.txt", "r")
     for deploy_hash in f:
         deploy_result = client.get_deploy(deploy_hash) # deployhash is from input file
         # print(json.dumps(deploy_result))
@@ -115,7 +115,7 @@ def _main(args: argparse.Namespace):
 
             
         print("========================")
-        print("before my_get_auction_info",deploy_hash)
+        print("Process deploy_hash:\n",deploy_hash)
         before_bids = my_get_auction_info(client,before_height,arg_new_validator)
         old_staked_amount = 0
         for bid_cell in before_bids:
@@ -134,20 +134,22 @@ def _main(args: argparse.Namespace):
                         print("arg_delegator",arg_delegator)
                         for pk in delegators:
                             if pk["public_key"] == arg_delegator:
-                               
+                                #  new_staked_amount: staked_amount after 7 eras
                                new_staked_amount =  pk["staked_amount"]
-                        # old_staked_amount gets from block in which deploy is in
+                               #  delta staked_amount between new and old era
                                delta_staked_amount = int(new_staked_amount) - old_staked_amount
-                        # get amount_from_deploy from deploy
+                               # get amount_from_deploy from deploy
                                if delta_staked_amount > int(arg_amount):
                                   count += 1
-                            # that should be okay.
+                                  # that should be okay.
                                   print("good:", deploy_hash)
+                                #   if old era the staked amount is 0 then equal is okay.
                                elif old_staked_amount == 0 and delta_staked_amount == int(arg_amount):
                                   count += 1
                                   print("good:", deploy_hash)
 
                                else:
+                                # Otherwise the redelegated amount is not good.
                                 # print deploy hash, block height before and after
                                   print("bad:",deploy_hash)
                                   print("delta_staked_amount",delta_staked_amount)
