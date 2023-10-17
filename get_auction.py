@@ -63,10 +63,13 @@ def _main(args: argparse.Namespace):
         deploy_result = client.get_deploy(deploy_hash) # deployhash is from input file
         # print(json.dumps(deploy_result))
         # return
-        success = deploy_result["execution_results"][0]["result"]["Success"]
-        if not success:
+        
+        try:
+            deploy_result["execution_results"][0]["result"]["Success"]
+        except:
             print("failed deploy:",deploy_hash)
             continue
+
         block_hash = deploy_result["execution_results"][0]["block_hash"]
         # parm_delegator = 
         args = deploy_result["deploy"]["session"]["StoredContractByHash"]["args"]
