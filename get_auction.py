@@ -125,7 +125,9 @@ def _main(args: argparse.Namespace):
         for bid_cell in after_bids:
                     if bid_cell["public_key"] == arg_new_validator:
                         delegators = bid_cell["bid"]["delegators"]
+                        print("arg_delegator",arg_delegator)
                         for pk in delegators:
+                            print("delegator",pk)
                             if pk == arg_delegator:
                                
                                new_staked_amount =  pk["staked_amount"]
