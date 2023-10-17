@@ -128,19 +128,19 @@ def _main(args: argparse.Namespace):
                             # print deploy hash, block height before and after
                             print("bad:",deployhash)
 
+           
     # ============== get auction info
-    def my_get_auction_info(client, block_height,new_validator):
-        auction_result = client.get_auction_info(block_height)
-        bids = auction_result["auction_state"]["bids"]
+def my_get_auction_info(client, block_height,new_validator):
+    auction_result = client.get_auction_info(block_height)
+    bids = auction_result["auction_state"]["bids"]
 
-        for bid_cell in bids:
-            if bid_cell["public_key"] == new_validator:
-                delegators = bid_cell["bid"]["delegators"]
-                return delegators
-            else:
-                return []
-                
-        
+    for bid_cell in bids:
+        if bid_cell["public_key"] == new_validator:
+            delegators = bid_cell["bid"]["delegators"]
+            return delegators
+        else:
+            return []
+            
 
     #    "low": 1898405,
     #     "high": 2140607
