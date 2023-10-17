@@ -91,6 +91,10 @@ def _main(args: argparse.Namespace):
         before_height = block_result["header"]["height"]
 
         temp_after_height = before_height + 200 * 7
+        print(temp_after_height)
+        print(type(temp_after_height))
+        print(temp_after_height > 2141045)
+        return
 
         if temp_after_height > 2141045:
             continue
