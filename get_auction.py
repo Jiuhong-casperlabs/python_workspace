@@ -137,6 +137,8 @@ def _main(args: argparse.Namespace):
             if bid_cell["public_key"] == new_validator:
                 delegators = bid_cell["bid"]["delegators"]
                 return delegators
+            else:
+                return []
                 
         
 
