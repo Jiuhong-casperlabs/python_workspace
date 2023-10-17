@@ -1,15 +1,8 @@
 import argparse
 import json
-import os
-import pathlib
-import typing
 
-import pycspr
 from pycspr import NodeClient
 from pycspr import NodeConnection
-from pycspr.types import CL_URef
-
-
 
 # CLI argument parser.
 _ARGS = argparse.ArgumentParser("Demo illustrating how to execute native transfers with pycspr.")
@@ -61,10 +54,8 @@ def _main(args: argparse.Namespace):
     client = _get_client(args)
 
 
-    # Query 3.2: get_block - by hash & by height.
+    # Query 3.2: get_block - by height.
     for height in range(2014081, 2140604):
-        # print(client.get_block(height))
-        # print()
 
         deploy_hashes = client.get_block(height)["body"]["deploy_hashes"]
         if len(deploy_hashes) > 0:
@@ -73,15 +64,13 @@ def _main(args: argparse.Namespace):
                 # print(json.dumps(client.get_deploy(deploy)))
                 deploy_result = client.get_deploy(deploy)
                 try:
+                    # find the redelegate entry point name
                     entrypoint_name = deploy_result["deploy"]["session"]["StoredContractByHash"]["entry_point"]
                     if entrypoint_name == "redelegate":
                         print(deploy_result["deploy"]["hash"])
                         print()
                 except Exception as e:
                     print(e)
-
-                
-        
 
 
 #    "low": 1898405,
@@ -104,10 +93,10 @@ if __name__ == "__main__":
     _main(_ARGS.parse_args())
 
 
-
-# 2014081	10554
-# 2014080	10553	0
-# For this upgrade to protocol version 1.5.2, the activation point is Era 10553
+# block_height  era_id
+# 2014081	    10554
+# 2014080	    10553	=> 1.5.2 takes effect
+# For this upgrade to protocol version , the activation point is Era 10553
 
 # current 
 # 2140604
