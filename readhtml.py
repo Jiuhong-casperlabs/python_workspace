@@ -34,8 +34,8 @@ for row in sorted_list:
     # print("16",row[16])
     # row[11] is upgrade era.  row[12] is weight%
     if (pd.isna(row[11])) and (not pd.isna(row[12])):
-        # row[1] is public key
-        print(row[1])
+        # row[1] is public key, row[12] is weight%
+        print(row[1],row[12])
         count+=1
 
 print(count)
