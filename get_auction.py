@@ -91,37 +91,38 @@ def _main(args: argparse.Namespace):
         before_height = block_result["header"]["height"]
 
         temp_after_height = before_height + 200 * 7
-        temp_block_result = client.get_block(temp_after_height)
-        temp_after_era_id = temp_block_result["header"]["era_id"]
-
-        while (temp_after_era_id - before_era_id !=8):
-            temp_after_height = temp_after_height + 200 * 8
+        if temp_after_height < 2141045: # current height
             temp_block_result = client.get_block(temp_after_height)
             temp_after_era_id = temp_block_result["header"]["era_id"]
 
-        after_era_id = temp_after_era_id
-        after_height = temp_after_height
+            while (temp_after_era_id - before_era_id !=8):
+                temp_after_height = temp_after_height + 200 * 8
+                temp_block_result = client.get_block(temp_after_height)
+                temp_after_era_id = temp_block_result["header"]["era_id"]
 
-            
-        before_delegators = get_auction_info(client,before_height,arg_new_validator)
-        old_staked_amount = 0
-        for delegator in before_delegators:
-                    if delegator["delegatee"] == arg_new_validator and delegator["public_key"] == arg_delegator:
-                        old_staked_amount =  delegator["staked_amount"]
+            after_era_id = temp_after_era_id
+            after_height = temp_after_height
 
-        after_delegators = get_auction_info(client,after_height,arg_new_validator)
-        for delegator in after_delegators:
-                    if delegator["delegatee"] == arg_new_validator and delegator["public_key"] == arg_delegator:
-                        new_staked_amount =  delegator["staked_amount"]
-                        # old_staked_amount gets from block in which deploy is in
-                        delta_staked_amount = new_staked_amount - old_staked_amount
-                        # get amount_from_deploy from deploy
-                        if delta_staked_amount > arg_amount:
-                            # that should be okay.
-                            print("good:", deployhash)
-                        else:
-                            # print deploy hash, block height before and after
-                            print("bad:",deployhash)
+                
+            before_delegators = get_auction_info(client,before_height,arg_new_validator)
+            old_staked_amount = 0
+            for delegator in before_delegators:
+                        if delegator["delegatee"] == arg_new_validator and delegator["public_key"] == arg_delegator:
+                            old_staked_amount =  delegator["staked_amount"]
+
+            after_delegators = get_auction_info(client,after_height,arg_new_validator)
+            for delegator in after_delegators:
+                        if delegator["delegatee"] == arg_new_validator and delegator["public_key"] == arg_delegator:
+                            new_staked_amount =  delegator["staked_amount"]
+                            # old_staked_amount gets from block in which deploy is in
+                            delta_staked_amount = new_staked_amount - old_staked_amount
+                            # get amount_from_deploy from deploy
+                            if delta_staked_amount > arg_amount:
+                                # that should be okay.
+                                print("good:", deployhash)
+                            else:
+                                # print deploy hash, block height before and after
+                                print("bad:",deployhash)
 
     # ============== get auction info
     def get_auction_info(client, block_height,new_validator):
