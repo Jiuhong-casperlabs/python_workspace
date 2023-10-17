@@ -58,7 +58,7 @@ def _main(args: argparse.Namespace):
     # for height in range(2014081, 2140604):
 
 # ============= get deploy info
-    f = open("input.txt", "r")
+    f = open("result1.json", "r")
     for deploy_hash in f:
         deploy_result = client.get_deploy(deploy_hash) # deployhash is from input file
         # print(json.dumps(deploy_result))
