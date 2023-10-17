@@ -9,20 +9,9 @@ from pycspr import NodeConnection
 from pycspr.types import CL_URef
 
 
-# Path to NCTL assets.
-_PATH_TO_NCTL_ASSETS = pathlib.Path(os.getenv("NCTL")) / "assets" / "net-1"
 
 # CLI argument parser.
 _ARGS = argparse.ArgumentParser("Demo illustrating how to execute native transfers with pycspr.")
-
-# CLI argument: path to cp2 account key - defaults to NCTL user 2.
-_ARGS.add_argument(
-    "--account-key-path",
-    default=_PATH_TO_NCTL_ASSETS / "users" / "user-1" / "public_key_hex",
-    dest="path_to_account_key",
-    help="Path to a test user's public_key_hex file.",
-    type=str,
-    )
 
 # CLI argument: host address of target node - defaults to NCTL node 1.
 _ARGS.add_argument(
