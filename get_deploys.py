@@ -70,8 +70,14 @@ def _main(args: argparse.Namespace):
         if len(deploy_hashes) > 0:
             # check deploy
             for deploy in deploy_hashes:
-                print(json.dumps(client.get_deploy(deploy)))
-                print()
+                # print(json.dumps(client.get_deploy(deploy)))
+                deploy_result = client.get_deploy(deploy)
+                entrypoint_name = deploy_result["deploy"]["session"]["StoredContractByHash"]["entry_point"]
+                if entrypoint_name == "redelegate":
+                    print(deploy_result["deploy"]["hash"])
+                    print()
+
+                
         
 
 
