@@ -109,6 +109,7 @@ def _main(args: argparse.Namespace):
         after_height = temp_after_height
 
             
+        print("before my_get_auction_info")
         before_delegators = my_get_auction_info(client,before_height,arg_new_validator)
         old_staked_amount = 0
         for delegator in before_delegators:
