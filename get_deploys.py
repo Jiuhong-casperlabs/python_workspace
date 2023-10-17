@@ -70,7 +70,7 @@ def _main(args: argparse.Namespace):
         if len(deploy_hashes) > 0:
             # check deploy
             for deploy in deploy_hashes:
-                print(json.dump(client.get_deploy(deploy)))
+                print(json.dumps(client.get_deploy(deploy)))
                 print()
         
 
