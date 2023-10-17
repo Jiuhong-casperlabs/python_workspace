@@ -110,25 +110,37 @@ def _main(args: argparse.Namespace):
 
             
         print("before my_get_auction_info",deploy_hash)
-        before_delegators = my_get_auction_info(client,before_height,arg_new_validator)
+        before_bids = my_get_auction_info(client,before_height,arg_new_validator)
         old_staked_amount = 0
-        for delegator in before_delegators:
-                    if delegator["delegatee"] == arg_new_validator and delegator["public_key"] == arg_delegator:
-                        old_staked_amount =  delegator["staked_amount"]
+        for bid_cell in before_bids:
+                    if bid_cell["public_key"] == arg_new_validator:
+                        old_delegators = bid_cell["bid"]["delegators"]
+                        for pk in old_delegators:
+                            if pk == arg_delegator:
+                               
+                               old_staked_amount =  pk["staked_amount"]
 
-        after_delegators = my_get_auction_info(client,after_height,arg_new_validator)
-        for delegator in after_delegators:
-                    if delegator["delegatee"] == arg_new_validator and delegator["public_key"] == arg_delegator:
-                        new_staked_amount =  delegator["staked_amount"]
+        after_bids = my_get_auction_info(client,after_height,arg_new_validator)
+        count = 0
+        for bid_cell in after_bids:
+                    if bid_cell["public_key"] == arg_new_validator:
+                        delegators = bid_cell["bid"]["delegators"]
+                        for pk in delegators:
+                            if pk == arg_delegator:
+                               
+                               new_staked_amount =  pk["staked_amount"]
                         # old_staked_amount gets from block in which deploy is in
-                        delta_staked_amount = new_staked_amount - old_staked_amount
+                               delta_staked_amount = new_staked_amount - old_staked_amount
                         # get amount_from_deploy from deploy
-                        if delta_staked_amount > arg_amount:
+                               if delta_staked_amount > arg_amount:
+                                  count += 1
                             # that should be okay.
-                            print("good:", deploy_hash)
-                        else:
-                            # print deploy hash, block height before and after
-                            print("bad:",deploy_hash)
+                                  print("good:", deploy_hash)
+                               else:
+                                # print deploy hash, block height before and after
+                                  print("bad:",deploy_hash)
+        if count == 0:
+            print("bad:", deploy_hash)
 
            
     # ============== get auction info
@@ -136,12 +148,7 @@ def my_get_auction_info(client, block_height,new_validator):
     auction_result = client.get_auction_info(block_height)
     bids = auction_result["auction_state"]["bids"]
 
-    for bid_cell in bids:
-        if bid_cell["public_key"] == new_validator:
-            delegators = bid_cell["bid"]["delegators"]
-            return delegators
-        else:
-            return []
+    return bids
             
 
     #    "low": 1898405,
