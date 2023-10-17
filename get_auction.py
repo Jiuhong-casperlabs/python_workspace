@@ -59,8 +59,6 @@ def _main(args: argparse.Namespace):
 
 # ============= get deploy info
     f = open("result1.json", "r")
-# print(f.read())
-
     for deploy_hash in f:
         deploy_result = client.get_deploy(deploy_hash) # deployhash is from input file
         # print(json.dumps(deploy_result))
@@ -109,6 +107,7 @@ def _main(args: argparse.Namespace):
         after_height = temp_after_height
 
             
+        print("========================")
         print("before my_get_auction_info",deploy_hash)
         before_bids = my_get_auction_info(client,before_height,arg_new_validator)
         old_staked_amount = 0
@@ -144,6 +143,8 @@ def _main(args: argparse.Namespace):
                                   print("arg_amount",arg_amount)
         if count == 0:
             print("bad:", deploy_hash)
+
+        print("========================")
 
            
     # ============== get auction info
