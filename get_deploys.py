@@ -1,4 +1,5 @@
 import argparse
+import json
 import os
 import pathlib
 import typing
@@ -69,7 +70,7 @@ def _main(args: argparse.Namespace):
         if len(deploy_hashes) > 0:
             # check deploy
             for deploy in deploy_hashes:
-                print(client.get_deploy(deploy))
+                print(json.dump(client.get_deploy(deploy)))
                 print()
         
 
