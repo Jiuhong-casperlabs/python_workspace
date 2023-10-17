@@ -62,8 +62,16 @@ def _main(args: argparse.Namespace):
 
     # Query 3.2: get_block - by hash & by height.
     for height in range(2014081, 2140604):
-        print(client.get_block(height))
-        print()
+        # print(client.get_block(height))
+        # print()
+
+        deploy_hashes = client.get_block(height)["body"]["deploy_hashes"]
+        if len(deploy_hashes) > 0:
+            # check deploy
+            for deploy in deploy_hashes:
+                print(client.get_deploy(deploy))
+                print()
+        
 
 
 #    "low": 1898405,
