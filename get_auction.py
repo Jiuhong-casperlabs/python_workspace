@@ -139,6 +139,8 @@ def _main(args: argparse.Namespace):
                                else:
                                 # print deploy hash, block height before and after
                                   print("bad:",deploy_hash)
+                                  print("delta_staked_amount",delta_staked_amount)
+                                  print("arg_amount",arg_amount)
         if count == 0:
             print("bad:", deploy_hash)
 
