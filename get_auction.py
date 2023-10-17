@@ -144,6 +144,7 @@ def _main(args: argparse.Namespace):
                             # that should be okay.
                                   print("good:", deploy_hash)
                                elif old_staked_amount == 0 and delta_staked_amount == int(arg_amount):
+                                  count += 1
                                   print("good:", deploy_hash)
 
                                else:
