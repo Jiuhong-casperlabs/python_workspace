@@ -57,12 +57,86 @@ def _main(args: argparse.Namespace):
     # Query 3.2: get_block - by height.
     # for height in range(2014081, 2140604):
 
-    auction_result = client.get_auction_info(2140604)
-    print(json.dumps(auction_result))
-    
+# ============= get deploy info
+    f = open("result1.json", "r")
+# print(f.read())
 
-#    "low": 1898405,
-#     "high": 2140607
+    for deploy_hash in f:
+        deploy_result = client.get_deploy(deploy_hash) # deployhash is from input file
+        # print(json.dumps(deploy_result))
+        # return
+        block_hash = deploy_result["execution_results"][0]["block_hash"]
+        # parm_delegator = 
+        args = deploy_result["deploy"]["session"]["StoredContractByHash"]["args"]
+
+        for arg in args:
+            if arg[0] == "delegator":
+                arg_delegator = arg[1]["parsed"]
+
+            if arg[0] == "validator":
+                arg_old_validator = arg[1]["parsed"]
+
+            if arg[0] == "amount":
+                arg_amount = arg[1]["parsed"]
+
+            if arg[0] == "new_validator":
+                arg_new_validator = arg[1]["parsed"]
+
+    # ==============get block info ========
+        block_result = client.get_block(block_hash)
+        # print(json.dumps(block_result))
+        # return
+
+        before_era_id = block_result["header"]["era_id"]
+        before_height = block_result["header"]["height"]
+
+        temp_after_height = before_height + 200 * 7
+        temp_block_result = client.get_block(temp_after_height)
+        temp_after_era_id = temp_block_result["header"]["era_id"]
+
+        while (temp_after_era_id - before_era_id !=8):
+            temp_after_height = temp_after_height + 200 * 8
+            temp_block_result = client.get_block(temp_after_height)
+            temp_after_era_id = temp_block_result["header"]["era_id"]
+
+        after_era_id = temp_after_era_id
+        after_height = temp_after_height
+
+            
+        before_delegators = get_auction_info(client,before_height,arg_new_validator)
+        old_staked_amount = 0
+        for delegator in before_delegators:
+                    if delegator["delegatee"] == arg_new_validator and delegator["public_key"] == arg_delegator:
+                        old_staked_amount =  delegator["staked_amount"]
+
+        after_delegators = get_auction_info(client,after_height,arg_new_validator)
+        for delegator in after_delegators:
+                    if delegator["delegatee"] == arg_new_validator and delegator["public_key"] == arg_delegator:
+                        new_staked_amount =  delegator["staked_amount"]
+                        # old_staked_amount gets from block in which deploy is in
+                        delta_staked_amount = new_staked_amount - old_staked_amount
+                        # get amount_from_deploy from deploy
+                        if delta_staked_amount > arg_amount:
+                            # that should be okay.
+                            print("good:", deployhash)
+                        else:
+                            # print deploy hash, block height before and after
+                            print("bad:",deployhash)
+
+    # ============== get auction info
+    def get_auction_info(client, block_height,new_validator):
+        auction_result = client.get_auction_info(block_height)
+        bids = auction_result["auction_state"]["bids"]
+
+        for bid_cell in bids:
+            if bid_cell["public_key"] == new_validator:
+                delegators = bid_cell["bid"]["delegators"]
+                return delegators
+                
+        
+
+    #    "low": 1898405,
+    #     "high": 2140607
 
 def _get_client(args: argparse.Namespace) -> NodeClient:
     """Returns a pycspr client instance.
