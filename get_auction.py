@@ -124,10 +124,10 @@ def _main(args: argparse.Namespace):
                         # get amount_from_deploy from deploy
                         if delta_staked_amount > arg_amount:
                             # that should be okay.
-                            print("good:", deployhash)
+                            print("good:", deploy_hash)
                         else:
                             # print deploy hash, block height before and after
-                            print("bad:",deployhash)
+                            print("bad:",deploy_hash)
 
            
     # ============== get auction info
