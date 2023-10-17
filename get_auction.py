@@ -127,7 +127,6 @@ def _main(args: argparse.Namespace):
                         delegators = bid_cell["bid"]["delegators"]
                         print("arg_delegator",arg_delegator)
                         for pk in delegators:
-                            print("delegator",pk["public_key"])
                             if pk["public_key"] == arg_delegator:
                                
                                new_staked_amount =  pk["staked_amount"]
