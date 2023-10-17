@@ -143,10 +143,14 @@ def _main(args: argparse.Namespace):
                                   count += 1
                                   # that should be okay.
                                   print("good:", deploy_hash)
+                                  print("delta_staked_amount",delta_staked_amount)
+                                  print("arg_amount",arg_amount)
                                 #   if old era the staked amount is 0 then equal is okay.
                                elif old_staked_amount == 0 and delta_staked_amount == int(arg_amount):
                                   count += 1
                                   print("good:", deploy_hash)
+                                  print("delta_staked_amount",delta_staked_amount)
+                                  print("arg_amount",arg_amount)
 
                                else:
                                 # Otherwise the redelegated amount is not good.
