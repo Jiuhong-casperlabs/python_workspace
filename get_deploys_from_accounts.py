@@ -78,7 +78,7 @@ def _main(args: argparse.Namespace):
         
         try:
             deploy_result = client.get_deploy(deploy)
-            if not deploy_result["execution_results"]["result"]["Success"]:
+            if not deploy_result["execution_results"]["result"][0]["Success"]:
                 continue
             # find the redelegate entry point name
             entrypoint_name = deploy_result["deploy"]["session"]["StoredContractByHash"]["entry_point"]
