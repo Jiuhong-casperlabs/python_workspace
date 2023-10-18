@@ -62,7 +62,7 @@ def _main(args: argparse.Namespace):
     # print(pages)
     deploy_hashes=[]
     for page in pages:
-        url = f'https://api.cspr.live{page["url"].replace("limit=10", "limit=60")}'
+        url = f'https://api.cspr.live{page["url"].replace("limit=10", "limit=900")}'
         r = requests.get(url)
         for cell in r.json()["data"]:
             deploy_hashes.append(cell["deployHash"])
