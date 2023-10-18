@@ -1,22 +1,3 @@
-account 020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd
-34b1f980059932a029102ca9b9efe01a015ca324ff86724b2a27c2bfbf92ba7f
-2210ca077dc5e1aa2809b931afc6bf94b8f840669b3b78c5342933f71f867e7f
-e844ca28cf7824824442b229072e8c815bee7cdd9ab097deec928dfcb6255442
-9b4b9e6eb9c97b66d5ee397a6bd80d67a84a641cabd8ac294cc1aef2e2f9e65a
-bf6c593562c7f70c1b5048646c8d85f2ead0cb844c09f9eb0d2cdaaa25464509
-cbb6192fbab0867a9388ea93328db051e5323a42de0b70947572f3a3517be33a
-e1efcb52f505e788620dbeaa87d6df797e53942dee98c682db9633a02defcecf
-fa534d90270772fc2ac30401ea45dbcf192fe5b8fa832b98a603cb0d3dc5541c
-35c38992913286d50f3f230d3a84b9d49f3ff1d08f8c45c350f5b3dafcfcb9e6
-0b7fd44f6833cca4be9094150f4ab8f7ef0038f97c325dc008175ac25c20ce29
-9b3d8b223aff8adc5e9b63aad9aad77568ebb1add3682f04e00a19671dab5306
-9fe96912730f5366b54d2efab382e542b9e8a35b787b223bbf1c69f71bc92cc4
-169259033717f3a7f4534195a6324d8d8dfd70b98b9ed8895d057ca40ca10e80
-b30dd946d13b3d79cf9badab19da4e387fce4200e5771486031e3c1563e513a8
-98e32cea85a5b3eb6c38c244fda868ce6a77e55292ed0a5f61c727041fdf5900
-900b22087dbcb4c3689af0842f25cd81e9e7def1349bbd4c87438bb85ded1bb5
-17fe7f02a422e6a8f820e45676828af3eeb22f0b76139a83758afe12cc0ee9f7
-17
 34b1f980059932a029102ca9b9efe01a015ca324ff86724b2a27c2bfbf92ba7f
 {
     "StoredContractByHash": {
@@ -35,7 +16,7 @@ b30dd946d13b3d79cf9badab19da4e387fce4200e5771486031e3c1563e513a8
                 "validator",
                 {
                     "cl_type": "PublicKey",
-                    "bytes": "015dfd4b3f997b1eb1a7292eb501845931b8aa9869988a5caa2be79ac4f5ff8a21",
+                    "bytes": "015dfd4b3f997b1eb1a7292eb501845931b8aa9869988a5caa2be79ac4f5ff8a21",  yes2
                     "parsed": "015dfd4b3f997b1eb1a7292eb501845931b8aa9869988a5caa2be79ac4f5ff8a21"
                 }
             ],
@@ -69,7 +50,7 @@ b30dd946d13b3d79cf9badab19da4e387fce4200e5771486031e3c1563e513a8
                 "validator",
                 {
                     "cl_type": "PublicKey",
-                    "bytes": "015dfd4b3f997b1eb1a7292eb501845931b8aa9869988a5caa2be79ac4f5ff8a21",
+                    "bytes": "015dfd4b3f997b1eb1a7292eb501845931b8aa9869988a5caa2be79ac4f5ff8a21", yes2
                     "parsed": "015dfd4b3f997b1eb1a7292eb501845931b8aa9869988a5caa2be79ac4f5ff8a21"
                 }
             ],
@@ -103,7 +84,7 @@ e844ca28cf7824824442b229072e8c815bee7cdd9ab097deec928dfcb6255442
                 "validator",
                 {
                     "cl_type": "PublicKey",
-                    "bytes": "015dfd4b3f997b1eb1a7292eb501845931b8aa9869988a5caa2be79ac4f5ff8a21",
+                    "bytes": "015dfd4b3f997b1eb1a7292eb501845931b8aa9869988a5caa2be79ac4f5ff8a21", yes2
                     "parsed": "015dfd4b3f997b1eb1a7292eb501845931b8aa9869988a5caa2be79ac4f5ff8a21"
                 }
             ],
@@ -153,7 +134,7 @@ e844ca28cf7824824442b229072e8c815bee7cdd9ab097deec928dfcb6255442
                 "new_validator",
                 {
                     "cl_type": "PublicKey",
-                    "bytes": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec",
+                    "bytes": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec", yes1
                     "parsed": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec"
                 }
             ]
@@ -195,7 +176,7 @@ bf6c593562c7f70c1b5048646c8d85f2ead0cb844c09f9eb0d2cdaaa25464509
                 "new_validator",
                 {
                     "cl_type": "PublicKey",
-                    "bytes": "015dfd4b3f997b1eb1a7292eb501845931b8aa9869988a5caa2be79ac4f5ff8a21",
+                    "bytes": "015dfd4b3f997b1eb1a7292eb501845931b8aa9869988a5caa2be79ac4f5ff8a21",  yes2
                     "parsed": "015dfd4b3f997b1eb1a7292eb501845931b8aa9869988a5caa2be79ac4f5ff8a21"
                 }
             ]
@@ -203,48 +184,189 @@ bf6c593562c7f70c1b5048646c8d85f2ead0cb844c09f9eb0d2cdaaa25464509
     }
 }
 
-cbb6192fbab0867a9388ea93328db051e5323a42de0b70947572f3a3517be33a
-{
-    "StoredContractByHash": {
-        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
-        "entry_point": "delegate",
-        "args": [
-            [
-                "delegator",
-                {
-                    "cl_type": "PublicKey",
-                    "bytes": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd",
-                    "parsed": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd"
-                }
-            ],
-            [
-                "validator",
-                {
-                    "cl_type": "PublicKey",
-                    "bytes": "01145b4a44d33da5466386bcacaafdfdaa88e6109faaecfd16756bf1e991727a58",
-                    "parsed": "01145b4a44d33da5466386bcacaafdfdaa88e6109faaecfd16756bf1e991727a58"
-                }
-            ],
-            [
-                "amount",
-                {
-                    "cl_type": "U512",
-                    "bytes": "0600105ff2ba06",
-                    "parsed": "7400000000000"
-                }
-            ]
-        ]
-    }
-}
 
-e1efcb52f505e788620dbeaa87d6df797e53942dee98c682db9633a02defcecf Error(code=-32000, message='No such deploy', data='failed to get deploy-hash(e1ef..cecf) and metadata from storage', id=7)
-fa534d90270772fc2ac30401ea45dbcf192fe5b8fa832b98a603cb0d3dc5541c Error(code=-32000, message='No such deploy', data='failed to get deploy-hash(fa53..541c) and metadata from storage', id=8)
 35c38992913286d50f3f230d3a84b9d49f3ff1d08f8c45c350f5b3dafcfcb9e6 Error(code=-32000, message='No such deploy', data='failed to get deploy-hash(35c3..b9e6) and metadata from storage', id=9)
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd",
+            "parsed": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec",  yes1
+            "parsed": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "060008c1f1e801",
+            "parsed": "2100000000000"
+        }
+    ]
+]
 0b7fd44f6833cca4be9094150f4ab8f7ef0038f97c325dc008175ac25c20ce29 Error(code=-32000, message='No such deploy', data='failed to get deploy-hash(0b7f..ce29) and metadata from storage', id=10)
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd",
+            "parsed": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec", yes1
+            "parsed": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06008692744901",
+            "parsed": "1415000000000"
+        }
+    ]
+]
 9b3d8b223aff8adc5e9b63aad9aad77568ebb1add3682f04e00a19671dab5306 Error(code=-32000, message='No such deploy', data='failed to get deploy-hash(9b3d..5306) and metadata from storage', id=11)
-9fe96912730f5366b54d2efab382e542b9e8a35b787b223bbf1c69f71bc92cc4 Error(code=-32000, message='No such deploy', data='failed to get deploy-hash(9fe9..2cc4) and metadata from storage', id=12)
-169259033717f3a7f4534195a6324d8d8dfd70b98b9ed8895d057ca40ca10e80 Error(code=-32000, message='No such deploy', data='failed to get deploy-hash(1692..0e80) and metadata from storage', id=13)
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd",
+            "parsed": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec", yes1
+            "parsed": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06004a3f283901",
+            "parsed": "1345000000000"
+        }
+    ]
+]
+
+
 b30dd946d13b3d79cf9badab19da4e387fce4200e5771486031e3c1563e513a8 Error(code=-32000, message='No such deploy', data='failed to get deploy-hash(b30d..13a8) and metadata from storage', id=14)
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd",
+            "parsed": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec", yes1
+            "parsed": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "060014edd7e603",
+            "parsed": "4290000000000"
+        }
+    ]
+]
 98e32cea85a5b3eb6c38c244fda868ce6a77e55292ed0a5f61c727041fdf5900 Error(code=-32000, message='No such deploy', data='failed to get deploy-hash(98e3..5900) and metadata from storage', id=15)
-900b22087dbcb4c3689af0842f25cd81e9e7def1349bbd4c87438bb85ded1bb5 Error(code=-32000, message='No such deploy', data='failed to get deploy-hash(900b..1bb5) and metadata from storage', id=16)
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd",
+            "parsed": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec", yes1
+            "parsed": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0600d29192ad01",
+            "parsed": "1845000000000"
+        }
+    ]
+]
+
+
 17fe7f02a422e6a8f820e45676828af3eeb22f0b76139a83758afe12cc0ee9f7 Error(code=-32000, message='No such deploy', data='failed to get deploy-hash(17fe..e9f7) and metadata from storage', id=17)
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd",
+            "parsed": "020245f6a79d58cb09295448c2fe35470c18ee80e05bffbb181e5f8e4f842a9e86dd"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec", yes1
+            "parsed": "01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0500c810ab99",
+            "parsed": "660000000000"
+        }
+    ]
+]
+=======
+yes2
+015dfd4b3f997b1eb1a7292eb501845931b8aa9869988a5caa2be79ac4f5ff8a21
+5000000000000 + 3000000000000 + 1800000000000 + 7710791926506
+total: 17510.791926506
+17643.20103 
+
+======
+yes1
+01140a7e6a7c7b8ccffbb01ba9091902062af3b49079c794c943f33edd7d207dec
+14000000000000 + 2100000000000 + 1415000000000 + 1345000000000 + 4290000000000 + 1845000000000 + 660000000000
+total: 25655.000000000
+27259.91406
