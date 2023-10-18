@@ -1,5 +1,6 @@
 import argparse
 import json
+from time import sleep
 import requests
 from pycspr import NodeClient
 from pycspr import NodeConnection
@@ -53,7 +54,7 @@ def _main(args: argparse.Namespace):
     # Set client.
     client = _get_client(args)
 
-    account = "0203d95c20e53d6470954826c928802bcd8b302410d19b1b7e1fdda75a4f2870b8e0"
+    account = "010a884bcada3e53f83e5fb80350e5ae325844dd49ba782ac16e4ef12cc41a11d0"
     url = f"https://api.cspr.live/accounts/{account}/deploys"
     r = requests.get(url)
 
@@ -74,6 +75,7 @@ def _main(args: argparse.Namespace):
     # check deploy
     for deploy in deploy_hashes:
         # print(json.dumps(client.get_deploy(deploy)))
+        sleep(2)
         deploy_result = client.get_deploy(deploy)
         try:
             # find the redelegate entry point name
