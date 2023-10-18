@@ -1,0 +1,68 @@
+d96fa36cf27183c1199bf4007a9de3ab8c0dfdb78e46b167e2629d5dd4458f92
+"entry_point": "redelegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0203480593c849a826150540ae9374a4d8ff5d46767d60c8a8bd4e94a37157f0ddb6",
+            "parsed": "0203480593c849a826150540ae9374a4d8ff5d46767d60c8a8bd4e94a37157f0ddb6"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0128cb7b72438c54db7810cb552b347dc7c383259d3865b308706014375da11940",
+            "parsed": "0128cb7b72438c54db7810cb552b347dc7c383259d3865b308706014375da11940"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06f6a4ffc33006",
+            "parsed": "6806516507894"
+        }
+    ],
+    [
+        "new_validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0169e1552a97843ff2ef4318e8a028a9f4ed0c16b3d96f6a6eee21e6ca0d4022bc",  yes
+            "parsed": "0169e1552a97843ff2ef4318e8a028a9f4ed0c16b3d96f6a6eee21e6ca0d4022bc"
+        }
+    ]
+]
+=========                    
+de00f3303348866079229e5b34aeda8024cc3736a12695e0f643606183a71863
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0203480593c849a826150540ae9374a4d8ff5d46767d60c8a8bd4e94a37157f0ddb6",
+            "parsed": "0203480593c849a826150540ae9374a4d8ff5d46767d60c8a8bd4e94a37157f0ddb6"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0169e1552a97843ff2ef4318e8a028a9f4ed0c16b3d96f6a6eee21e6ca0d4022bc",  yes
+            "parsed": "0169e1552a97843ff2ef4318e8a028a9f4ed0c16b3d96f6a6eee21e6ca0d4022bc"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06863cf52abb02",
+            "parsed": "3002902854790"
+        }
+    ]
+]
+=======
+total: 9809.419362684
+9926.75630

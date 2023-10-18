@@ -1,0 +1,985 @@
+9f65211d0430d9524c4f8a661c33a69ac0f0790aa6bbe6581e58fc9f9ea706b3
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "064a366901c602",
+            "parsed": "3049450452554"
+        }
+    ]
+]
+
+c07e28c5a85e90c300a35781b7e0bc18ee141cfc2e0b50055d0d28bc30dd77bb
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "069f8f528dab02",
+            "parsed": "2935833661343"
+        }
+    ]
+]
+
+06de629f206cc1af1e86a8a40ecac9165a538c026c1d7a9a454bcbeb997ee6a2
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06bf7c2831ca01",
+            "parsed": "1967919758527"
+        }
+    ]
+]
+
+3c1d675cf1b192c044af9f203d73e3b42eb414af2eca95fe0c09cd8aa369f47f
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0690ab7a5ab102",
+            "parsed": "2960750455696"
+        }
+    ]
+]
+
+ac8e0e78b931abfe791dfdc1efe07cde30aec16c45b78c14d07a154e7529e3f3
+"entry_point": "redelegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0128cb7b72438c54db7810cb552b347dc7c383259d3865b308706014375da11940",
+            "parsed": "0128cb7b72438c54db7810cb552b347dc7c383259d3865b308706014375da11940"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06906c85a78401",
+            "parsed": "1669257850000"
+        }
+    ],
+    [
+        "new_validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ]
+]
+
+aa0340facba9716a4ea1647696d0de5ed1f64d423d7019e61ddb5472a3ae9295
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0690cd56331009",
+            "parsed": "9965185453456"
+        }
+    ]
+]
+
+a281237d8bc24ff4e804fd3dbe413e84a1357682434ebb764dfa876ff91bec25
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06756b75b20f04",
+            "parsed": "4465465060213"
+        }
+    ]
+]
+
+ad68b1392010cd903f3b9e8f8e04c05dd5eedefbc283751f50dedacc21fe762f
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06c9f35138d209",
+            "parsed": "10798492677065"
+        }
+    ]
+]
+35fd2e7b818ddffd37dead435d00f92b5fe18244fd0203cedcb4126a7db15397
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06c5f0120c6d05",
+            "parsed": "5965912142021"
+        }
+    ]
+]
+
+d3d280366770022f743765eb0bd947a0f5de07abb4f5bac20ed9f7facb05377c
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0650d52e8c3404",
+            "parsed": "4623736690000"
+        }
+    ]
+]
+
+
+15f697c3f8fa0fe2240f814dc6662b7aea9bdf1bc48f83b9770269564ca573df
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "067d4d80de0f04",
+            "parsed": "4466203970941"
+        }
+    ]
+]
+
+709a3f6f84983d8415a75984d289b64071a53684e81ba4f4302172a42dac53f7
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "066617d63e9b03",
+            "parsed": "3965309032294"
+        }
+    ]
+]
+326532c68c86ceadaf55502ddbdb50f0f4a94318fe399f9f94d65fee19999c53
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06ee913104f532",
+            "parsed": "56027918733806"
+        }
+    ]
+]
+ab771e1e13005e0ff39bb2074d58eb8372a39bd53740a4bb27d1e4cd54b79b08
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06fc2a008b1009",
+            "parsed": "9966656170748"
+        }
+    ]
+]
+3fd2a463afb591fa27a688c9d7443841e121933ca64f0738a5df9a50cda83333
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0652d2be6c6d05",
+            "parsed": "5967534019154"
+        }
+    ]
+]
+f9632f4af259aa08b1751dd9fb12a3a294cbe503bddc7254bbc3bd440ba243e4
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0659204761131a",
+            "parsed": "28670538752089"
+        }
+    ]
+]
+a6afd3fbe611cc026a449afc3b6d6a87004812b6766d647ab8890901b5ebee89
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0662829d94de08",
+            "parsed": "9752069112418"
+        }
+    ]
+]
+8b1e3c0b1663e8199950790bccb40e902f60cb8849f97c297a62d601f128c9e1
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06c153fbb5b411",
+            "parsed": "19467844932545"
+        }
+    ]
+]
+c972d40d2ddb62f27d08736a5a3b321c5cffe4ab75ec1142d557ae90eeba30a0
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0602eb9c7bcb0b",
+            "parsed": "12968580147970"
+        }
+    ]
+]
+194c6d8182652a801ce5e12ffe3ac27e52894bfc0797eb657c954a36ef8dde2a
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06618c3bb7c633",
+            "parsed": "56928570674273"
+        }
+    ]
+]
+
+cd3b67f49ebc5d93780c21457bcf580fbb518812e5c6f8cf6e6f36cad5db9f9d
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "05ac2931fde0",
+            "parsed": "966320531884"
+        }
+    ]
+]
+f187f9c561de651a83361d937eb9fa15907c75bcfaec04f4057ffa373e59dfd1
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06c4b6d9a2e10e",
+            "parsed": "16362262607556"
+        }
+    ]
+]
+9135c8b4024bc0a6a0cd91b5b410d186a9fbf1c315ee6c78a540e9fc6cdb8c54
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06e8d1d655371b",
+            "parsed": "29924477293032"
+        }
+    ]
+]
+7c86cb90e96704bc9445a17a64046197b94a8246df3a3c24ac795debe6e2f172
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06588e9b577004",
+            "parsed": "4880552660568"
+        }
+    ]
+]
+d13c31e658d5c202b1b600c3fd8103e002056c63dc5bddaf2c25e9f285c32d25
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0689b6beaefa13",
+            "parsed": "21967394485897"
+        }
+    ]
+]
+
+f3acc88d8fcf38134d8ec9219bf31b29d70a5f9162cf5710d114d8d5ad0a2c1e
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0603398b9ecd17",
+            "parsed": "26171895658755"
+        }
+    ]
+]
+33a1cdc2923871eb61f64a10c483b98cee3102141a7079fa7c965cae2337194a
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "065896b1c94910",
+            "parsed": "17909102515800"
+        }
+    ]
+]
+5995597407b153eb857f6c2ee876cd28eff1ce09b978603fcf3546e6a5cde704
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "060084cb81b302",
+            "parsed": "2970000000000"
+        }
+    ]
+]
+d28c63149f4c32d6c837c010a5982c33d5931c98af221ac72e2745b341933272
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0600a4152b8504",
+            "parsed": "4970000000000"
+        }
+    ]
+]
+27bebf8ae80fdcfa1a76d4f65e4df7ddf6cf07ddf59fbbd35b3b177d7842ef8e
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0600a2b2f62917",
+            "parsed": "25469000000000"
+        }
+    ]
+]
+9b243d564f4be18d04503d3cf947f8a7c6fa0dfd48e1886a107275dfb52626e1
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0600989c65ee08",
+            "parsed": "9820000000000"
+        }
+    ]
+]
+248543532bc2617ab965e12dc6e61f4320b287cd2104f70cc4b6584b2ffa7249
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06004cae9d712d",
+            "parsed": "49966000000000"
+        }
+    ]
+]
+feed15032ca0c7aa37308c56949b2e554277318207182749ba03a5f40bfe0d8a
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0600d04d49421a",
+            "parsed": "28872000000000"
+        }
+    ]
+]
+
+5f2cd1691c77a00d0e3849ca6d0cf52a0050505720a0a440c079febe773d0612
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f",
+            "parsed": "0202e4d729e42f414ad5370297beafd436f18e90cb0c53af5dcd3e0b56fdf489a43f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6", yes
+            "parsed": "01e688f7fa2d1e011f4ba40f5edd3bb4e8c46bce4b9985a4806a4f9cd032f318e6"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0600e4a97d2808",
+            "parsed": "8970000000000"
+        }
+    ]
+]
+
+==========
+3049450452554 + 2935833661343 +1967919758527+2960750455696+1669257850000+9965185453456 = 22548397631576
++4465465060213 +10798492677065 +5965912142021 +4623736690000 +4466203970941 +3965309032294 +56027918733806 = 90313038306340
++9966656170748+5967534019154+28670538752089+9752069112418+19467844932545+12968580147970+56928570674273  = 143721793809197
++966320531884+16362262607556+29924477293032+4880552660568+21967394485897+26171895658755+17909102515800 = 118182005753492
++2970000000000+4970000000000+25469000000000+9820000000000+49966000000000+28872000000000+8970000000000 = 131037000000000
+
+22548397631576 + 90313038306340 + 143721793809197 + 118182005753492 + 118182005753492
+total: 492947.241254097
+518054.58729 CSPR

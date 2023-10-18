@@ -1,0 +1,77 @@
+fddd5414aeb16072b4d3ba5f6252dbde3bee535505edf5541ac51666a50da2cf
+"entry_point": "redelegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202ef7b968fa5126c8cf7fadae9d1463b5a2ac811b94eee66b4391ac6672e127201",
+            "parsed": "0202ef7b968fa5126c8cf7fadae9d1463b5a2ac811b94eee66b4391ac6672e127201"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "01c377281132044bd3278b039925eeb3efdb9d99dd5f46d9ec6a764add34581af7",
+            "parsed": "01c377281132044bd3278b039925eeb3efdb9d99dd5f46d9ec6a764add34581af7"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "07d15882ca7b3101",
+            "parsed": "335882724989137"
+        }
+    ],
+    [
+        "new_validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0138e64f04c03346e94471e340ca7b94ba3581e5697f4d1e59f5a31c0da720de45", yes1
+            "parsed": "0138e64f04c03346e94471e340ca7b94ba3581e5697f4d1e59f5a31c0da720de45"
+        }
+    ]
+]
+=============
+477b3dcf5d86c3cc40a3539605c335575eb2a624c1c030d062157515da4e2b74
+"entry_point": "redelegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0202ef7b968fa5126c8cf7fadae9d1463b5a2ac811b94eee66b4391ac6672e127201",
+            "parsed": "0202ef7b968fa5126c8cf7fadae9d1463b5a2ac811b94eee66b4391ac6672e127201"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "018d427371a4721523cc3a992a703ecfbb5372cb33398d41c57847d1faf12702b7",
+            "parsed": "018d427371a4721523cc3a992a703ecfbb5372cb33398d41c57847d1faf12702b7"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0638a2caa65a78",
+            "parsed": "132330740687416"
+        }
+    ],
+    [
+        "new_validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0138e64f04c03346e94471e340ca7b94ba3581e5697f4d1e59f5a31c0da720de45", yes1
+            "parsed": "0138e64f04c03346e94471e340ca7b94ba3581e5697f4d1e59f5a31c0da720de45"
+        }
+    ]
+]
+
+335882724989137 + 132330740687416
+total: 468213.465676553
+473971.75698

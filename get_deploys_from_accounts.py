@@ -54,8 +54,8 @@ def _main(args: argparse.Namespace):
     # Set client.
     client = _get_client(args)
 
-    account = "012ba8401bb5a4b359b38cff86ce1002654406468e60787e11cec1c7d696be9185"
-    url = f"https://api.cspr.live/accounts/{account}/deploys"
+    account = "0202b4890b72ad0af7e4ac8cc61b82b67b175ee1f61c62a923e8f47f5cd12b240410"
+    url = f"https://api.cspr.live/accounts/{account}/deploys?page=1&limit=300"
     r = requests.get(url)
 
     pages = r.json()["pages"]
@@ -75,16 +75,16 @@ def _main(args: argparse.Namespace):
     # check deploy
     for deploy in deploy_hashes:
         # print(json.dumps(client.get_deploy(deploy)))
-        sleep(2)
-        deploy_result = client.get_deploy(deploy)
+        
         try:
+            deploy_result = client.get_deploy(deploy)
             # find the redelegate entry point name
             entrypoint_name = deploy_result["deploy"]["session"]["StoredContractByHash"]["entry_point"]
             if entrypoint_name in name_list:
                 print(json.dumps(deploy_result["deploy"]["session"],indent=4))
                 print()
         except Exception as e:
-            print(e)
+            print(deploy,e)
 
 
 #    "low": 1898405,

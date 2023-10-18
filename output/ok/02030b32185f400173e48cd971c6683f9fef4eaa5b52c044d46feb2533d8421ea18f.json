@@ -1,0 +1,70 @@
+============
+a8326825bb2a2eff2c5ff69226c762991fb656dabfe2c043e7808cbb8fd7a031
+"entry_point": "redelegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "02030b32185f400173e48cd971c6683f9fef4eaa5b52c044d46feb2533d8421ea18f",
+            "parsed": "02030b32185f400173e48cd971c6683f9fef4eaa5b52c044d46feb2533d8421ea18f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0192bd13c30b633702d9eb40252c09468224ea6b1e0af1d8b0de31f842ad02c978",
+            "parsed": "0192bd13c30b633702d9eb40252c09468224ea6b1e0af1d8b0de31f842ad02c978"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "06a542d54bde07",
+            "parsed": "8651336401573"
+        }
+    ],
+    [
+        "new_validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0169e1552a97843ff2ef4318e8a028a9f4ed0c16b3d96f6a6eee21e6ca0d4022bc", yes
+            "parsed": "0169e1552a97843ff2ef4318e8a028a9f4ed0c16b3d96f6a6eee21e6ca0d4022bc"
+        }
+    ]
+]
+===============
+2228c3807307386e02298f28eecd435d0e3986fcba5e0e77c89e69dcbf666a44
+"entry_point": "delegate",
+"args": [
+    [
+        "delegator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "02030b32185f400173e48cd971c6683f9fef4eaa5b52c044d46feb2533d8421ea18f",
+            "parsed": "02030b32185f400173e48cd971c6683f9fef4eaa5b52c044d46feb2533d8421ea18f"
+        }
+    ],
+    [
+        "validator",
+        {
+            "cl_type": "PublicKey",
+            "bytes": "0169e1552a97843ff2ef4318e8a028a9f4ed0c16b3d96f6a6eee21e6ca0d4022bc", yes
+            "parsed": "0169e1552a97843ff2ef4318e8a028a9f4ed0c16b3d96f6a6eee21e6ca0d4022bc"
+        }
+    ],
+    [
+        "amount",
+        {
+            "cl_type": "U512",
+            "bytes": "0600b080f64501",
+            "parsed": "1400000000000"
+        }
+    ]
+]
+===================
+8651336401573 + 1400000000000
+total: 10051.336401573
+10160.54416
