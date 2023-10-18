@@ -1,0 +1,94 @@
+account 010a884bcada3e53f83e5fb80350e5ae325844dd49ba782ac16e4ef12cc41a11d0
+7d52b352b74f631efdca78497c11d35fc89245a68da88659d00fb16a7c17e904
+e9c0525a9ed815fbfbf00a3ae68e984416a4353e7670a14c92a09df0b82f96a6
+3254919d870a63aba0bbcf308dab9b53f3cbcda42dc59fc451b24c69ae7df3f9
+5c5d12b61df1d1bd3052154e334116526e868eff9499de8a7b0f8f725946b207
+3cb983c36d974e805a9f8273499523bc551379349e17c168ad5c6d88a4864fac
+23fb8614a7c365fd9c97b6f31d6d256a4e99dc350f8d4992d034804b038d2ea6
+58537f0545a1b5f5118e18654556cf230a4c671ccb4fb78d212093d8dfdddaa2
+072f91ee5e9ca96474a9990b156f7764d13e8b2540766bfe5419dfcd71919f30
+4b5ea9da5a6d978870f6cf7234060df60f556949bbf6e07150cac14e9deddfa1
+2e692d9a5d0eec6886a9e0ddf61b33b9728bc0c63b3c7ddd236d5b39437fb315
+74981984ced39e7496711f5faaf3992431cc089a526d781e283eb87fdd6cf152
+60512e1d6ff8b18616ebf3e876039bd7f1d8c5514a824ec264363d5ba64729fb
+3407e507c5a00d6a404b997d3bc24fec4022e8aff714ebbba71b510f8d1f7008
+6f6249c4db181e7a0ace5389e34470c359378c92b832d0a3f170558367eae782
+6c45c0783528de4bd0dd92821e4b053f066aa6f445c4292b6f1427651da9140b
+23fb8614a7c365fd9c97b6f31d6d256a4e99dc350f8d4992d034804b038d2ea6
+2e692d9a5d0eec6886a9e0ddf61b33b9728bc0c63b3c7ddd236d5b39437fb315
+6f58f8f0bb9c80a52033243d93653625b11c8e9b798751943ad877e1e8251e10
+58537f0545a1b5f5118e18654556cf230a4c671ccb4fb78d212093d8dfdddaa2
+7bf39c377bae9725c22f4c7a11c3155d6e887dc01db716a0aa030482220bd9f2
+ab711e07f09bae07004973153bd8e2762293c9377d72d168a84faa2f1a939ef5
+bcb529ae03b16e38454f8c23cdf6a474cfc411cb7ac51d3a51e7f138a5b9c1d7
+3cb983c36d974e805a9f8273499523bc551379349e17c168ad5c6d88a4864fac
+74981984ced39e7496711f5faaf3992431cc089a526d781e283eb87fdd6cf152
+3254919d870a63aba0bbcf308dab9b53f3cbcda42dc59fc451b24c69ae7df3f9
+87c95769aac7db763e76c6e2dc6208825fd0e3356be29cf823c0ed6ce101067a
+6f58f8f0bb9c80a52033243d93653625b11c8e9b798751943ad877e1e8251e10
+2e692d9a5d0eec6886a9e0ddf61b33b9728bc0c63b3c7ddd236d5b39437fb315
+6e647a0cc94f4cfe1faac329026950a91db50a9c0ffd4db4c03985fe16c0633a
+b6137215db72b1766b3051138ba5595c9079de2f85e24dd7e82b9e8901332e10
+30
+'StoredContractByHash'
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "010a884bcada3e53f83e5fb80350e5ae325844dd49ba782ac16e4ef12cc41a11d0",
+                    "parsed": "010a884bcada3e53f83e5fb80350e5ae325844dd49ba782ac16e4ef12cc41a11d0"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "01aaf10e19befa56098c43783d3fedeb7392155860a5bc42bb86b5dd133d209535",
+                    "parsed": "01aaf10e19befa56098c43783d3fedeb7392155860a5bc42bb86b5dd133d209535"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "070000e941cc6b01",
+                    "parsed": "400000000000000"
+                }
+            ]
+        ]
+    }
+}
+
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
+'StoredContractByHash'
