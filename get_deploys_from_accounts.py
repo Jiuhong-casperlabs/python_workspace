@@ -81,6 +81,7 @@ def _main(args: argparse.Namespace):
             # find the redelegate entry point name
             entrypoint_name = deploy_result["deploy"]["session"]["StoredContractByHash"]["entry_point"]
             if entrypoint_name in name_list:
+                print(deploy)
                 print(json.dumps(deploy_result["deploy"]["session"],indent=4))
                 print()
         except Exception as e:
