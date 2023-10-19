@@ -1,0 +1,87 @@
+78331bc26c9980ac2692702eea9bbb600a52a61ac2ea233f4120f64b480a9e2d
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "redelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "012e40e6c834d97a63370f3a85164309d53fec05e5f02ab8b8194f2f5d7532d19e",
+                    "parsed": "012e40e6c834d97a63370f3a85164309d53fec05e5f02ab8b8194f2f5d7532d19e"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "01d0e60a39ba9d0b20bd8c70870cb1786109771f31559f17ea8476b3d2e00f7e28",
+                    "parsed": "01d0e60a39ba9d0b20bd8c70870cb1786109771f31559f17ea8476b3d2e00f7e28"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0522fbffd078",
+                    "parsed": "518902512418"
+                }
+            ],
+            [
+                "new_validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0169e1552a97843ff2ef4318e8a028a9f4ed0c16b3d96f6a6eee21e6ca0d4022bc",  yes1
+                    "parsed": "0169e1552a97843ff2ef4318e8a028a9f4ed0c16b3d96f6a6eee21e6ca0d4022bc"
+                }
+            ]
+        ]
+    }
+}
+
+1e6feaeec75f0b7784fc8ea6e31ff29e410e5648014945b1e18f5adcef4af24f
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "redelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "012e40e6c834d97a63370f3a85164309d53fec05e5f02ab8b8194f2f5d7532d19e",
+                    "parsed": "012e40e6c834d97a63370f3a85164309d53fec05e5f02ab8b8194f2f5d7532d19e"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "01878b696b9d7f7d9b46b039c84cb98b8a5009c9f15d0926babc2d200466c24d2f",
+                    "parsed": "01878b696b9d7f7d9b46b039c84cb98b8a5009c9f15d0926babc2d200466c24d2f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "06c918131ecd2e",
+                    "parsed": "51458507741385"
+                }
+            ],
+            [
+                "new_validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0169e1552a97843ff2ef4318e8a028a9f4ed0c16b3d96f6a6eee21e6ca0d4022bc", yes1
+                    "parsed": "0169e1552a97843ff2ef4318e8a028a9f4ed0c16b3d96f6a6eee21e6ca0d4022bc"
+                }
+            ]
+        ]
+    }
+}
+======
+518902512418 + 51458507741385
+total: 51977.410253803
+52651.53083
