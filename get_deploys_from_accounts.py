@@ -56,16 +56,18 @@ def _main(args: argparse.Namespace):
     client = _get_client(args)
 
     account = "010a884bcada3e53f83e5fb80350e5ae325844dd49ba782ac16e4ef12cc41a11d0"
-    url = f"https://api.cspr.live/accounts/{account}/deploys?page=1&limit=300"
+    url = f"https://api.cspr.live/accounts/{account}/deploys?page=1&limit=100"
     r = requests.get(url)
 
+    pageCount = r.json()["pageCount"]
     pages = r.json()["pages"]
-    print(pages)
+    # print(pages)
     deploy_hashes=[]
-    for page in pages:
-        url = f'https://api.cspr.live{page["url"]}'
-        digits_re=r'limit=.*'
-        url= re.sub(digits_re, 'limit=300', url, flags=re.IGNORECASE)
+    for page in range(1, pageCount+1):
+        url = f'https://api.cspr.live/accounts/{account}/deploys?page=1&limit=100"'
+        digits_re=r'page=\d+'
+        url= re.sub(digits_re,  f'page={page}', url, flags=re.IGNORECASE)
+        # print(url)
         r = requests.get(url)
         for cell in r.json()["data"]:
             deploy_hashes.append(cell["deployHash"])
