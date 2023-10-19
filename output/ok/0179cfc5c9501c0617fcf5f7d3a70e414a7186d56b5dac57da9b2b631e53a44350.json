@@ -1,0 +1,1814 @@
+a957613182e375d7fa51758aac93b63201ffade6627f0fad20e882ee2a19feaf
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "060024bc9a5101",
+                    "parsed": "1450000000000"
+                }
+            ]
+        ]
+    }
+}
+
+67f97bab53e60b5f6be4e9ba4fc48110bc0a73992f931c9ec76645663bc21bd6
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "060014679c4502",
+                    "parsed": "2498000000000"
+                }
+            ]
+        ]
+    }
+}
+
+4dd4b1c76fc3d0b12b0d9a674b136537a7956a387df1592b15986dc6ed55b54b
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "060014679c4502",
+                    "parsed": "2498000000000"
+                }
+            ]
+        ]
+    }
+}
+
+7ebd5550da7dce05aafa2494fe7846497dd08629bb4358678fcf5c36ad0f7040
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0500c657b2d9",
+                    "parsed": "935000000000"
+                }
+            ]
+        ]
+    }
+}
+
+42b3480dad3a43fe513bb568eb124696acd128bc35537218fb01ebe3d58ed8a2
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600c279f6d001",
+                    "parsed": "1997000000000"
+                }
+            ]
+        ]
+    }
+}
+
+afc33934fa146befbea3236c97b13bdc6ee5988a1afb61fdbf09e07348c0ddca
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "060098f73e5d01",
+                    "parsed": "1500000000000"
+                }
+            ]
+        ]
+    }
+}
+
+fb7e4d274ed461a2fb1180d4fd135e814fa9cb5eccee23d563d2912328b9d191
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0500fc8d0e80",
+                    "parsed": "550000000000"
+                }
+            ]
+        ]
+    }
+}
+
+
+0cdf6cbc3d50666eefe68a08796c80c6da81efdf0c7b2fe5e482fb8ab73b75b7
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600264ba58f04",
+                    "parsed": "5015000000000"
+                }
+            ]
+        ]
+    }
+}
+
+9511900a20007c1b466ce662fe0a5c4c4c3b6138338965d88bae3991f2f46896
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "06005e33fd8a04",
+                    "parsed": "4995000000000"
+                }
+            ]
+        ]
+    }
+}
+
+e232a653836a38307c11f80ab44a560e5283c0e490fd22473a59e2cad806fb2d
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "06005039278c04",
+                    "parsed": "5000000000000"
+                }
+            ]
+        ]
+    }
+}
+
+d3d4d66c3f5b403229838fca34a75f42807c82af4446b3d4e7901000979659a0
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600bc03b08b04",
+                    "parsed": "4998000000000"
+                }
+            ]
+        ]
+    }
+}
+
+dd946c275f2ff8fab1e20ac1e3c2187a23a4c79e829e8ed35e31b2402d6a5f13
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0680bd1890e303",
+                    "parsed": "4275910000000"
+                }
+            ]
+        ]
+    }
+}
+
+c2a32fc62f12df20ec5772cb69e8134de0245bd45ec632042097ac4029502630
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "060084bd87dd03",
+                    "parsed": "4250000000000"
+                }
+            ]
+        ]
+    }
+}
+
+
+1b0c52d857fb0e4825061b3b7fb5778f7383a0b89300ae3cc6dff8c9322bb496
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "06807dee2ad301",
+                    "parsed": "2006470000000"
+                }
+            ]
+        ]
+    }
+}
+
+e3e6f388a3c838ef5a1cecda38599fca0b1b64a4ffa1832be3e1a9d2671337a1
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "05001e9faae7",
+                    "parsed": "995000000000"
+                }
+            ]
+        ]
+    }
+}
+
+02ba9abbebf0e403c66c2b8cb4afcc6aac741d9111b83ba7d269109fd50c62f5
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "redelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "01aaf10e19befa56098c43783d3fedeb7392155860a5bc42bb86b5dd133d209535",
+                    "parsed": "01aaf10e19befa56098c43783d3fedeb7392155860a5bc42bb86b5dd133d209535"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0548e7697fed",
+                    "parsed": "1020044896072"
+                }
+            ],
+            [
+                "new_validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f",  yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ]
+        ]
+    }
+}
+
+
+44836c2962d6e64ec212c1caf3793d9f1df18980f02244b5abfeb4241f9ae330
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f",  yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "050010a5d4e8",
+                    "parsed": "1000000000000"
+                }
+            ]
+        ]
+    }
+}
+
+6f0521c2bb5a22ed57f9dd8edfbbcfc9e8e579d3046424fcd6c5d98f5033bbe8
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "050010a5d4e8",
+                    "parsed": "1000000000000"
+                }
+            ]
+        ]
+    }
+}
+
+
+e993c68d5bae90f64607e3f64327927cea717aef70e757788b66648cdf9789b1
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "06003c4e0d9104",
+                    "parsed": "5021040000000"
+                }
+            ]
+        ]
+    }
+}
+
+81c5566eef8ae63aea48bc10d99b7ef24fc1429bd85d196fa46ee7f113f646b2
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "060021d1cd8b04",
+                    "parsed": "4998500000000"
+                }
+            ]
+        ]
+    }
+}
+
+39e3524dd9290a073d99ebff117bef2e0e96ebdff37318a97d24ec1f13935e13
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "06005039278c04",
+                    "parsed": "5000000000000"
+                }
+            ]
+        ]
+    }
+}
+
+
+80b1266dd824f73d732bde4aeca2c679f778bca30f461f4147cdc67ea0c181a8
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "06008a8377ce01",
+                    "parsed": "1986280000000"
+                }
+            ]
+        ]
+    }
+}
+
+04b51e523a6aeb0db56c04097cb9a220c16f89af30e482a98e090daad1d2c86c
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600204aa9d101",
+                    "parsed": "2000000000000"
+                }
+            ]
+        ]
+    }
+}
+
+534f7953128d175fc1b69fb8bad2bc0ab6d81fba7208331c18dcab1fc6ecdeb9
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "06001250d3d201",
+                    "parsed": "2005000000000"
+                }
+            ]
+        ]
+    }
+}
+
+c4f6a2fdc0fa7374d0f52b73fd2ef5a7497ea76dafeace82c67b31ac331dbf9e
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0500b457b5e3",
+                    "parsed": "978000000000"
+                }
+            ]
+        ]
+    }
+}
+
+326af96bfbd8e1d66dcd0dc7d09b3dafec2313820a61881e8fd3ebcbb0c089ad
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "05009028539e",
+                    "parsed": "680000000000"
+                }
+            ]
+        ]
+    }
+}
+
+b11ec84848890650af3d38bde33fa847e049bac8413ea6a3a4eea891d634e1ee
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "06000f9b6bd104",
+                    "parsed": "5297500000000"
+                }
+            ]
+        ]
+    }
+}
+
+6a5fa01bddefdec0ae4a9d17f49d2ca9d5b2ae4363c8eab17496ef4a097bbbe3
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600089e00d204",
+                    "parsed": "5300000000000"
+                }
+            ]
+        ]
+    }
+}
+
+0ecff30eea1ce18d13d55522a775efbb789019c71d3710ea3c851ac8bfa212f2
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "05000e8e0b76",
+                    "parsed": "507000000000"
+                }
+            ]
+        ]
+    }
+}
+
+067b188282ba10920a7d7e7135ac4c1c897ce992d7ce7391f9974eb7b756948a
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600f7a06f8801",
+                    "parsed": "1685500000000"
+                }
+            ]
+        ]
+    }
+}
+
+c4716a16d9729b7eca79965eeab86773c63a93c7e878555c6eba43b755c5d139
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600504e1ecd02",
+                    "parsed": "3080000000000"
+                }
+            ]
+        ]
+    }
+}
+
+
+60e7a43aa473fed75ed1b6273f1654d91346786865935ecb512915a49e0371c5
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "06005039278c04",
+                    "parsed": "5000000000000"
+                }
+            ]
+        ]
+    }
+}
+
+bc3b67a371a4fd46d950254a2d2ed599816bab4a384502419f92c91124f299b6
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "06000b5368d301",
+                    "parsed": "2007500000000"
+                }
+            ]
+        ]
+    }
+}
+
+8730da9fcd0ffbd5aec36b44a752cb896e281c23adcefebd205afb6fdd3f24e3
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600edad724502",
+                    "parsed": "2497300000000"
+                }
+            ]
+        ]
+    }
+}
+
+e291a619753421f96fa1889dcba77390ebb552d7e432365e0cecf1cf2a0c6ce8
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0500d4603473",
+                    "parsed": "494800000000"
+                }
+            ]
+        ]
+    }
+}
+
+e683f6b733f82cf59006fed79643e56b1bced1940d0a76d2f4cab08bc14eb9d0
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0680ce499bd401",
+                    "parsed": "2012650000000"
+                }
+            ]
+        ]
+    }
+}
+
+dbe9ba6487a8855805da8b01325be58541bc0672880f3f989b7c58561146f0d3
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "05002140cd6c",
+                    "parsed": "467300000000"
+                }
+            ]
+        ]
+    }
+}
+
+eb138486b6190101393d327c1ad534e788b531efddae7d2715839c680d543fee
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600dd089e5c01",
+                    "parsed": "1497300000000"
+                }
+            ]
+        ]
+    }
+}
+
+
+152a3b95cf389de0b86dfeef1cb629fa34d68a644de2f0f195fdb7b4ca36902d
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0680bbd4683e02",
+                    "parsed": "2467070000000"
+                }
+            ]
+        ]
+    }
+}
+
+
+f6f729ac2707f2abe193e9c20d0cca15d5aa64f98bf3391c8421ef3acd54b6d7
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600204aa9d101",
+                    "parsed": "2000000000000"
+                }
+            ]
+        ]
+    }
+}
+
+06789b7204cf2e28025aa5fb0eceb39e76b4b17178293b3d1583e64ed0a2b424
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "05002ec33673",
+                    "parsed": "494840000000"
+                }
+            ]
+        ]
+    }
+}
+
+090c4dc44e3f37675d2b459aa8306547775a36935a4832b51fa9c6499b99b02b
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "06005039278c04",
+                    "parsed": "5000000000000"
+                }
+            ]
+        ]
+    }
+}
+
+84dbe2015aa6b572f29fadaae7de177a089ac1172e2f44ffe1ee834e8fba1ffb
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0680e24881df02",
+                    "parsed": "3158970000000"
+                }
+            ]
+        ]
+    }
+}
+
+1b7ddcb4ea63045872f6a154ae01192c6fe948ad47b598366752e174c0cbfaee
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600c2062fdd02",
+                    "parsed": "3149000000000"
+                }
+            ]
+        ]
+    }
+}
+
+ec12614b7e791ed5e16b4aeb6fc7730a48840c564423cc45cf0b67c68a803ea7
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600f268748b04",
+                    "parsed": "4997000000000"
+                }
+            ]
+        ]
+    }
+}
+
+
+861b388adf9b48c96d5e425d60bd5cd06709204e88d0481ec24d264ecc737dd1
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600101b0c8d04",
+                    "parsed": "5003840000000"
+                }
+            ]
+        ]
+    }
+}
+
+
+389aceb7fd4dcfb6e7aefea4006690a7a581eb60698e3e71993d936399a28f79
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0500c6a031e9",
+                    "parsed": "1001560000000"
+                }
+            ]
+        ]
+    }
+}
+
+b905e6cc03a53a019ef674209c3f115b346a951f1472a0ac455a739d6e9b47f5
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "05003810c3e9",
+                    "parsed": "1004000000000"
+                }
+            ]
+        ]
+    }
+}
+
+90550d8c1e74bac7f62c8fdf858e6d755a63dde4be12054ebfddbcdaf666d52a
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "06807e481e8c04",
+                    "parsed": "4999850000000"
+                }
+            ]
+        ]
+    }
+}
+
+
+fdf924968d05fd0eb9b133cf4d6df4a93a4e5af1aaf40ddfdbcbfa9c9f4fa75d
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0600087b0fbb07",
+                    "parsed": "8500000000000"
+                }
+            ]
+        ]
+    }
+}
+
+9185d1374b5b7f27ed6468c6b4d86d8375998c4ff6caa4924a0fa3c24ac0844b
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0500d4603473",
+                    "parsed": "494800000000"
+                }
+            ]
+        ]
+    }
+}
+
+
+9a36ac0d153ecc54ca410b6b547d9aedb3f0bef667ad1c39a43a0bfe444f1dfd
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "delegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350",
+                    "parsed": "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f", yes
+                    "parsed": "0102d6f50d84be2ffd144c35511d995887461122a7d5967e49982c914b02ee3d5f"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "0500c3e445e9",
+                    "parsed": "1001900000000"
+                }
+            ]
+        ]
+    }
+}
+========
+1450000000000 + 2498000000000 + 2498000000000 + 935000000000 + 1997000000000 + 1500000000000 + 550000000000 
+= 11428000000000
+
+4995000000000 - 5015000000000  - 5000000000000 + 4998000000000 - 4275910000000 + 4250000000000 - 2006470000000 
+= -2054380000000
+
+995000000000 + 1020044896072 - 1000000000000 + 1000000000000 - 5021040000000 + 4998500000000 - 5000000000000 - 1986280000000 
+= -4993775103928
+
+
+2000000000000 - 2005000000000 + 978000000000 + 680000000000 + 5297500000000 - 5300000000000 + 507000000000 + 1685500000000
+= 3843000000000
+
+3080000000000 - 5000000000000 + 2007500000000 + 2497300000000 + 494800000000 - 2012650000000 + 467300000000
+= 1534250000000
+
+1497300000000 - 2467070000000 + 2000000000000 + 494840000000 - 5000000000000 - 3158970000000 + 3149000000000 + 4997000000000 - 5003840000000
+= -3491740000000
+
+1004000000000 - 1001560000000 + 4999850000000 + 8500000000000 + 494800000000 + 1001900000000
+= 14998990000000
+
+total: 11428000000000 -2054380000000 -4993775103928 + 3843000000000 + 1534250000000 -3491740000000 + 14998990000000
+= 
+21264.344896072
+21500.78306

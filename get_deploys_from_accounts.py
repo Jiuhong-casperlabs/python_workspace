@@ -54,7 +54,7 @@ def _main(args: argparse.Namespace):
     # Set client.
     client = _get_client(args)
 
-    account = "0179cfc5c9501c0617fcf5f7d3a70e414a7186d56b5dac57da9b2b631e53a44350"
+    account = "016e76e7615a516c76b7d0b7e3df193f049cfb0053979cca500f4a88bdb5b1b27a"
     url = f"https://api.cspr.live/accounts/{account}/deploys?page=1&limit=300"
     r = requests.get(url)
 
