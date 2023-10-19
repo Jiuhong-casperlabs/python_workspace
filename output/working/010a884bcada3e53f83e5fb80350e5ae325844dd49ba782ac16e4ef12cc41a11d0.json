@@ -1,0 +1,33 @@
+e9c0525a9ed815fbfbf00a3ae68e984416a4353e7670a14c92a09df0b82f96a6
+{
+    "StoredContractByHash": {
+        "hash": "ccb576d6ce6dec84a551e48f0d0b7af89ddba44c7390b690036257a04a3ae9ea",
+        "entry_point": "undelegate",
+        "args": [
+            [
+                "delegator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "010a884bcada3e53f83e5fb80350e5ae325844dd49ba782ac16e4ef12cc41a11d0",
+                    "parsed": "010a884bcada3e53f83e5fb80350e5ae325844dd49ba782ac16e4ef12cc41a11d0"
+                }
+            ],
+            [
+                "validator",
+                {
+                    "cl_type": "PublicKey",
+                    "bytes": "01aaf10e19befa56098c43783d3fedeb7392155860a5bc42bb86b5dd133d209535",
+                    "parsed": "01aaf10e19befa56098c43783d3fedeb7392155860a5bc42bb86b5dd133d209535"
+                }
+            ],
+            [
+                "amount",
+                {
+                    "cl_type": "U512",
+                    "bytes": "070000e941cc6b01",
+                    "parsed": "400000000000000"
+                }
+            ]
+        ]
+    }
+}

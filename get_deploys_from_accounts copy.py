@@ -1,6 +1,5 @@
 import argparse
 import json
-import re
 from time import sleep
 import requests
 from pycspr import NodeClient
@@ -61,36 +60,34 @@ def _main(args: argparse.Namespace):
 
     pages = r.json()["pages"]
     print(pages)
-    deploy_hashes=[]
-    for page in pages:
-        url = f'https://api.cspr.live{page["url"]}'
-        digits_re=r'limit=.*'
-        url= re.sub(digits_re, 'limit=300', url, flags=re.IGNORECASE)
-        r = requests.get(url)
-        for cell in r.json()["data"]:
-            deploy_hashes.append(cell["deployHash"])
+    # deploy_hashes=[]
+    # for page in pages:
+    #     url = f'https://api.cspr.live{page["url"].replace("limit=10", "limit=900")}'
+    #     r = requests.get(url)
+    #     for cell in r.json()["data"]:
+    #         deploy_hashes.append(cell["deployHash"])
 
-    print("account",account)
-    [print(deploy_hash) for deploy_hash in deploy_hashes]
-    print(len(deploy_hashes))
+    # print("account",account)
+    # [print(deploy_hash) for deploy_hash in deploy_hashes]
+    # print(len(deploy_hashes))
 
-    name_list = ["redelegate","delegate","undelegate"]
-    # check deploy
-    for deploy in deploy_hashes:
-        # print(json.dumps(client.get_deploy(deploy)))
+    # name_list = ["redelegate","delegate","undelegate"]
+    # # check deploy
+    # for deploy in deploy_hashes:
+    #     # print(json.dumps(client.get_deploy(deploy)))
         
-        try:
-            deploy_result = client.get_deploy(deploy)
-            if not deploy_result["execution_results"][0]["result"]["Success"]:
-                continue
-            # find the redelegate entry point name
-            entrypoint_name = deploy_result["deploy"]["session"]["StoredContractByHash"]["entry_point"]
-            if entrypoint_name in name_list:
-                print(deploy)
-                print(json.dumps(deploy_result["deploy"]["session"],indent=4))
-                print()
-        except Exception as e:
-            print(deploy,e)
+    #     try:
+    #         deploy_result = client.get_deploy(deploy)
+    #         if not deploy_result["execution_results"][0]["result"]["Success"]:
+    #             continue
+    #         # find the redelegate entry point name
+    #         entrypoint_name = deploy_result["deploy"]["session"]["StoredContractByHash"]["entry_point"]
+    #         if entrypoint_name in name_list:
+    #             print(deploy)
+    #             print(json.dumps(deploy_result["deploy"]["session"],indent=4))
+    #             print()
+    #     except Exception as e:
+    #         print(deploy,e)
 
 
 #    "low": 1898405,
