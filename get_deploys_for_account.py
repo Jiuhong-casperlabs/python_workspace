@@ -4,7 +4,7 @@ import json
 from pycspr import NodeClient
 from pycspr import NodeConnection
 
-file1 = open("myfile.txt", "a")
+file1 = open("myfile.json", "a")
 
 # CLI argument parser.
 _ARGS = argparse.ArgumentParser("Demo illustrating how to execute native transfers with pycspr.")
@@ -71,14 +71,17 @@ def _main(args: argparse.Namespace):
                     # find the redelegate entry point name
                     if deploy_result["deploy"]["approvals"][0]["signer"] != "015d4d230841ae93139f23124597468f4e9d7f7f68479f5394ccd0079814661504":
                         break
-                    success = deploy_result["execution_results"][0]["result"]
-                    if success != "Success":
-                        break
+                    deploy_result["execution_results"][0]["result"]["Success"]
+                    args= deploy_result["deploy"]["session"]["ModuleBytes"]["args"]
+                    hash = deploy_result["deploy"]["hash"]
+                    
+    
                     # args = deploy_result["deploy"]["session"]["ModuleBytes"]["args"]
                     file1.write("\n")
-                    file1.write(deploy_result)
-                    
-                    print(deploy_result)
+                    file1.write(hash)
+                    file1.write(json.dumps(args))
+                    print(hash)
+                    print(json.dumps(args))
                 except Exception as e:
                     print("error",e)
 
