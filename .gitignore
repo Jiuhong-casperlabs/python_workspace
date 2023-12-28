@@ -2,3 +2,6 @@ myenv
 output.txt
 .gitignore
 result.json
+select_src_dmesg_bk.py
+dmesg.txt
+result
