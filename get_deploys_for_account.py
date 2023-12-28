@@ -78,8 +78,13 @@ def _main(args: argparse.Namespace):
     
                     # args = deploy_result["deploy"]["session"]["ModuleBytes"]["args"]
                     file1.write("\n")
-                    file1.write(hash)
+                    file1.write("{")
+                    file1.write(str(hash))
+                    file1.write(",")
+                    file1.write("\n")
                     file1.write(json.dumps(args))
+                    # file1.write("\n")
+                    file1.write("}")
                     print(hash)
                     print(json.dumps(args))
                 except Exception as e:
