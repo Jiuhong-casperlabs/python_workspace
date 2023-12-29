@@ -57,7 +57,7 @@ def _main(args: argparse.Namespace):
 
 
     # Query 3.2: get_block - by height.
-    for height in range(703453, 2299618):
+    for height in range(2346678,703452, -1):
 
         deploy_hashes = client.get_block(height)["body"]["deploy_hashes"]
         if len(deploy_hashes) > 0:
