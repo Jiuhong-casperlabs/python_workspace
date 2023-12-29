@@ -82,7 +82,7 @@ def _main(args: argparse.Namespace):
                     file1.write("\"")
                     file1.write(hash)
                     file1.write("\"")
-                    file1.write(",")
+                    file1.write(":")
                     file1.write("\n")
                     file1.write(json.dumps(args))
                     # file1.write("\n")
